@@ -400,17 +400,17 @@ form{
 
 #name {
     margin-left: 2%;
-    margin-bottom: 2%;
 }
 
 #email {
     margin-left: 2%;
-    margin-bottom: 2%;
 }
 
 #question {
     margin-top: 2%;
     margin-bottom: 2%;
+    max-width: 50%;
+    max-height: 25vh;
 }
 
 #social img {
@@ -434,6 +434,12 @@ form{
     margin: 0 auto;
     background: linear-gradient(to right, rgb(67, 198, 172), rgb(25, 22, 84));
 }
+
+#legal {
+    text-align: center;
+}
+
+
 
 
 /* icon Gradenents */
