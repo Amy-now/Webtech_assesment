@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Amy Nowshadi | Computing student</title>
+    <script src="js/slideshow.js"></script>
+    <script src="js/contact_form.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/bot_walking.js"></script>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon " />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="walk_bot(), showDivs(), contact_form()">
+    <div id="wrapper">
+        <div id="header">
+            <nav>
+                <ul id="navbar">
+                    <h1 id="my_name"> Amy Nowshadi </h1>
+                    <li>
+                        <a href="#mainpage"> <img src="img\navbar\home.png" alt="home button" class="nav_bar" id="home">Home </a>
+                    </li>
+                    <li>
+                        <a href="#aboutme"><img src="img\navbar\person.png" alt="person button" class="nav_bar" id="about">About</a>
+                    </li>
+                    <li>
+                        <a href="#blog"><img src="img\navbar\pencil.png" alt="pencil button" class="nav_bar" id="pencil">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#contactcenter"><img src="img\navbar\letter.png" alt="letter button" class="nav_bar" id="contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <!-- /#header -->
+
+        <section id="mainpage">
+
+            <div id= "photo">
+                <img src="img\photo_of_me.jpg" alt="Image of Amy Nowshadi" class="avatar center">
+
+            </div>
+
+            
+            <!-- /#photo -->
+
+            <div id="intro">
+                <h2>Amy Nowshadi</h2>
+                <hr>
+                <h3>1st year Computing student</h3>
+            </div>
+
+            <img class="bot" id="hov_bot" src="img/gif/bot.gif" alt="Robot hovering">
+            <img class="bot" id="zoom_bot" src="img/gif/zoom.gif" alt="Robot on wheels">
+            <img class="bot" id="welcome_bot" src="img/gif/welcome.jpg" alt="Robot with welcome sign">
+
+        </section>
+
+
+        <section id="aboutme">
+
+            <h1>About Me</h1>
+            <div style="padding-bottom: 350px;" id="container">
+                <!-- Block 1 -->
+                <article id="left">
+                    <img src="img/microphone_icon.png" alt="Microphone">
+                    <div>
+                        <p class="title">Communication Skills</p>
+                        <p class="text">Most people who work in an office environment, buy computer products or have a computer at home have had...</p>
+                    </div>
+                </article>
+                <!-- Block 2 -->
+                <article id="right">
+                    <img src="" alt="Sandglass">
+                    <div>
+                        <p class="title">Work Ethic</p>
+                        <p class="text">Most people who work in an office environment, buy computer products or have a computer at home have had...</p>
+                    </div>
+                </article>
+                <!-- Block 3 -->
+                <article id="center">
+                    <img src="" alt="Brain Cogs">
+                    <div>
+                        <p class="title">Persistence</p>
+                        <p class="text">Most people who work in an office environment, buy computer products or have a computer at home have had...</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+
+
+    </div>
+    <section style="padding-bottom: 150px;" id="blog">
+        <h1>Blog</h1>
+
+        <!-- slideshow -->
+        <div class="slide-container">
+            <img class="mySlides" src="img/slideshow/hack-the-journey.PNG">
+            <img class="mySlides" src="img/slideshow/openday.PNG">
+            <img class="mySlides" src="img/slideshow/bsc.PNG">
+            <img class="mySlides" src="img/slideshow/BSCgame.PNG">
+            <img class="mySlides" src="img/slideshow/kerbspace.jpg">
+            <div class="controls-container">
+                <div class="slide-left hover-text" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="slide-right hover-text" onclick="plusDivs(1)">&#10095;</div>
+                <span class="slide-button dots" onclick="currentDiv(1)"></span>
+                <span class="slide-button dots" onclick="currentDiv(2)"></span>
+                <span class="slide-button dots" onclick="currentDiv(3)"></span>
+                <span class="slide-button dots" onclick="currentDiv(4)"></span>
+                <span class="slide-button dots" onclick="currentDiv(5)"></span>
+            </div>
+        </div>
+        <div class="myText" style="display: none;">
+            <h2>Some Title 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis obcaecati ut natus aspernatur pariatur harum numquam non optio fugit quibusdam voluptatibus maxime iure molestiae odit, corrupti, repellat soluta molestias reprehenderit?</p>
+        </div>
+        <div class="myText" style="display: none;">
+            <h2>Some Title 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit nesciunt error nam eum animi! Delectus, veniam quisquam! Atque eum nulla error modi illum harum quisquam, dolores sed ea ipsam.</p>
+        </div>
+        <div class="myText" style="display: none;">
+            <h2>Some Title 3</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod temporibus necessitatibus illo officiis ipsa ex. Cumque incidunt nobis odio error earum! Quibusdam illum quis recusandae rem aperiam veritatis optio aspernatur.</p>
+        </div>
+        <div class="myText" style="display: none;">
+            <h2>Some Title 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusantium dolores sequi, non veniam laboriosam deleniti repellendus eaque recusandae explicabo sint minima nobis ut repudiandae fugit reiciendis, fuga eligendi molestias.</p>
+        </div>
+        <div class="myText" style="display: none;">
+            <h2>Some Title 5</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quisquam ducimus modi fuga ipsa adipisci debitis suscipit nisi sint tempore. Natus illum quibusdam optio laborum obcaecati maxime doloremque, assumenda cumque.</p>
+        </div>
+    </section>
+
+
+    <section id="contactcenter">
+
+        <h1>Contact me!</h1>
+
+        <div id = "contact_form">
+            <form action="https://www.google.com" id="contact-form" method="get">
+
+                <p><label for="name">Name:</label><input type="text" name="name" id="name" placeholder="name" ></p>
+                <p id="nameRequiredError" class="error" style="display: none; color:red"> name is required</p>
+        
+                <p><label for="email">Email:</label><input type="text" name="email" id="email" placeholder="email" ></p>
+                <p id="EmailRequiredError" class="error" style="display: none; color:red"> email is required</p>
+        
+                <p>do you agree to being contacted by email?  yes <input type="radio" name="terms" value="yes" id="yesTerms"> no <input type="radio" name="terms" value="yes" id="yesTerms"></p>
+                <p id="termsRequiredError" class="error" style="display: none; color:red"> please tell us if you want to be contacted or not </p>
+                <span>What is your question?</span>
+                <br>
+                <textarea id="question" rows="4"></textarea>
+                <br><br>
+        
+        
+        
+                <input type="submit">
+            </form>
+        </div>
+
+        <div id="social">
+            <a href="https://www.facebook.com/amy.nowshadi">
+                <img src="img/socialicons/Facebook.png" alt="Facebook" class="facebook">
+            </a>
+            <a href="https://www.snapchat.com/add/amy50805">
+                <img src="img/socialicons/Snapchat.png" href="" alt="Snapchat" class="snapchat">
+            </a>
+            <a href="https://www.instagram.com/amy50805/">
+                <img src="img/socialicons/Instagram.png" href="" alt="Instagram" class="instagram">
+            </a>
+            <a href="https://uk.linkedin.com/in/amy-nowshadi-182961194">
+                <img src="img/socialicons/Linkedin.png" href="" alt="Linkedin" class="linkedin">
+            </a>
+            <a href="https://twitter.com/amy50805">
+                <img src="img/socialicons/Twitter.png" href="" alt="Twitter" class="twitter">
+            </a>
+        </div>
+    </section>
+
+    <div id="legal">
+
+        <li>
+
+            <a href="cookies.html">cookies</a>
+            <p>and</p>
+            <a href="terms_and_conditions.html">terms and conditions</a>
+        </li>
+
+    </div>
+
+
+
+
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <p class="footer">
+                &copy; 2010
+                <script>
+                    new Date().getFullYear() > 2010 && document.write("-" + new Date().getFullYear());
+                </script>, Amy Nowshadi.
+            </p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
