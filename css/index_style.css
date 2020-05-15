@@ -255,6 +255,12 @@ position: relative;
     padding-bottom: 1%;
 }
 
+#blog {
+
+    padding-bottom: 8%;
+
+}
+
 #blog p {
     width: 75%;
     margin: 0 auto;
@@ -377,7 +383,8 @@ position: relative;
 
 #contactcenter h1 {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 .contact_form {
@@ -438,8 +445,6 @@ form{
 #legal {
     text-align: center;
 }
-
-
 
 
 /* icon Gradenents */
