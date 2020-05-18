@@ -1,0 +1,21 @@
+body{
+
+    background: linear-gradient(to right, rgb(67, 198, 172), rgb(25, 22, 84));
+
+}
+
+.box{
+
+    margin: 0 auto;
+    background-color: white;
+    width: 50vw;
+    box-shadow: 5px 10px #070707b0;
+
+
+}
+
+#back_arrow{
+
+    width: 10vh;
+    opacity: 80%;
+}
