@@ -402,6 +402,7 @@ position: relative;
 
     }
 
+
 }
 
 @media screen and (max-width: 485px) {
@@ -410,6 +411,23 @@ position: relative;
 
         margin-left: 11%;
         margin-right: 12.1%;
+
+    }
+
+    #center{
+
+        margin-top: 28.7em;
+
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+
+    #center{
+
+        margin-top: 28.3em;
 
     }
 
