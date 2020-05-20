@@ -260,6 +260,18 @@ position: relative;
 
 
 }
+
+@media screen and (max-width: 380px) {
+
+
+    #my_name {
+        padding-right: 30.2%;
+        padding-left: 23%;
+        font-size: 120%;
+    }
+
+
+}
 /* making the Home responsive */
 
 
