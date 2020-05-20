@@ -248,6 +248,18 @@ position: relative;
     }
 
 }
+
+@media screen and (max-width: 500px) {
+
+
+    #my_name {
+        padding-right: 30.2%;
+        padding-left: 25%;
+        font-size: 140%;
+    }
+
+
+}
 /* making the Home responsive */
 
 
@@ -258,7 +270,7 @@ position: relative;
 
 #aboutme {
     background: linear-gradient(to right, rgb(67, 198, 172), rgb(25, 22, 84));
-    height: 100vh;
+    height: 95vh;
 }
 
 #aboutme h1 {
@@ -363,10 +375,55 @@ position: relative;
 
     #center{
 
-        margin-top: 30%;
+        margin-top: 54%;
         margin-left: 10%;
 
     }
+}
+
+
+@media screen and (max-width: 865px) {
+
+    #center{
+
+        margin-top: 29em;
+
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+
+    #right{
+
+        margin-top: 1em;
+        margin-left: 10.8%;
+        margin-right: 12.5%;
+
+    }
+
+}
+
+@media screen and (max-width: 485px) {
+
+    #right{
+
+        margin-left: 11%;
+        margin-right: 12.1%;
+
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    #right{
+
+        margin-left: 13%;
+        margin-right: 11%;
+
+    }
+
 }
 
 
@@ -417,7 +474,7 @@ position: relative;
     width: 50vw;
     margin-left: auto;
     margin-right: auto;
-    height: 50vh;
+    height: 45vh;
     position: relative;
     box-sizing: inherit;
     display: block;
@@ -434,7 +491,7 @@ position: relative;
 
     .slide-container {
 
-        height: 35vh;
+        height: 48vh;
 
     }
 }
@@ -450,28 +507,86 @@ position: relative;
 
     .slide-container {
 
-        height: 35vh;
+        height: 53vh;
+        width: 70vw;
 
     }
 }
 
 @media screen and (max-width: 1000px) {
 
+
+    .mySlides{
+
+        height: auto;
+
+    }
+
     .slide-container {
 
-        height: 38vh;
-        width: 50vw;
+        height: 43vh;
+        width: 70vw;
 
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 830px) {
+
+    .slide-container {
+
+        height: 36vh;
+        width: 70vw;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .slide-container {
+
+        height: 30vh;
+        width: 75vw;
+
+    }
+
+
+}
+
+@media screen and (max-width: 550px) {
 
     .slide-container {
 
         height: 25vh;
+        width: 80vw;
 
     }
+
+}
+
+@media screen and (max-width: 440px) {
+
+    .slide-container {
+
+        height: 20vh;
+        width: 80vw;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 380px) {
+
+    .slide-container {
+
+        height: 15vh;
+        width: 80vw;
+
+    }
+
+
+
 }
 
 .controls-container {
@@ -607,6 +722,14 @@ form{
 }
 
 
+@media screen and (max-width: 1000px) {
+
+    p{
+
+        font-size: 20px;
+
+    }
+}
 /* icon Gradenents */
 
 .facebook {
@@ -663,28 +786,6 @@ form{
 /* Contact Form */
 
 
-.cookie-banner {
-    position: fixed;
-    bottom: 40px;
-    left: 10%;
-    right: 10%;
-    width: 80%;
-    padding: 5px 14px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #eee;
-    border-radius: 5px;
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-}
-.close {
-    height: 20px;
-    background-color: #777;
-    border: none;
-    color: white;
-    border-radius: 2px;
-    cursor: pointer;
-}
 
 
 
