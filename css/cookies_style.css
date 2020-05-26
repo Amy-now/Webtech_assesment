@@ -3,6 +3,7 @@ body{
     background: linear-gradient(to right, rgb(67, 198, 172), rgb(25, 22, 84));
     height: 1100px;
 
+
 }
 
 #box_1{
@@ -35,12 +36,14 @@ p{
 
     font-family: sans-serif;
     color: white;
+    font-size: 130%;
 }
 
 li{
 
     font-family: sans-serif;
     color: white;
+    font-size: 130%;
     
 }
 
