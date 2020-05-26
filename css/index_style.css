@@ -439,9 +439,6 @@ position: relative;
     }
 }
 
-
-
-
 @media screen and (max-width: 640px) {
 
     #right{
@@ -547,8 +544,9 @@ position: relative;
 
 .blog {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 1%;
+    font-size: 200%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h2 {
@@ -777,8 +775,9 @@ h2 {
 
 #contactcenter h1 {
     text-align: center;
-    padding-top: 3%;
+    padding-top: 1%;
     padding-bottom: 2%;
+    font-size: 200%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -797,9 +796,15 @@ form{
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    font-size: 120%;
 
 }
 
+input[type="submit"]{
+
+    font-size: 90%;
+
+}
 
 #name {
     margin-left: 2%;
