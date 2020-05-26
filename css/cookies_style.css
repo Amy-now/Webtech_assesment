@@ -1,16 +1,27 @@
 body{
 
     background: linear-gradient(to right, rgb(67, 198, 172), rgb(25, 22, 84));
+    height: 1100px;
 
 }
 
-.box{
+#box_1{
 
     margin: 0 auto;
     background-color: white;
     width: 50vw;
     box-shadow: 5px 10px #070707b0;
+    border: 7px solid teal;
+    padding: 1% 2% 2% 2%;
+    background-color: rgba(10, 10, 10, 0.705);
+    opacity: 80%;
+}
 
+h1{
+
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
 
 }
 
@@ -18,4 +29,37 @@ body{
 
     width: 10vh;
     opacity: 80%;
+}
+
+p{
+
+    font-family: sans-serif;
+    color: white;
+}
+
+li{
+
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+#box_2{
+
+    margin: 0 auto;
+    background-color: white;
+    width: 50vw;
+    box-shadow: 5px 10px #070707b0;
+    border: 7px solid teal;
+    margin-top: 3%;
+    padding: 1% 2% 2% 2%;
+    background-color: rgba(10, 10, 10, 0.705);
+    opacity: 80%;
+
+}
+
+a {
+
+    color: teal;
+
 }

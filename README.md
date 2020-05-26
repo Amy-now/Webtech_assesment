@@ -8,6 +8,8 @@ What is the background to the problem you are attempting to solve.
 ## 1.1.2 Wire Frames
 Before you start, you should have created low fidelity wire frames for all of your pages. These should include mobile and desktop versions
 
+
+
 ## 1.1.3 Colour Choices
 Document the colour scheme you have used for your website and why this was chosen?
 
